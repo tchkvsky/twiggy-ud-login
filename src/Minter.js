@@ -2,6 +2,8 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react";
 import header from "./header.png";
+import Unstoppable from './Unstoppable';
+
 
 import {
   connectWallet,
@@ -73,6 +75,7 @@ const Minter = (props) => {
     <div className="space-y-16  p-4 bg-gray-900 font-sans, Georgia box-content w-auto h-auto">
       <div className="block space-y-4 p-6 h-32 bg-gray-900">
         <img className="float-left object-scale-down h-32 w-32 md:object-left-top m-2"  src={header} alt="Twiggy"></img>
+        <Unstoppable></Unstoppable>
         <button 
           className="float-right py-3 px-6 transition ease-in-out duration-700 transform hover:-translate-y-1 hover:scale-110 ring-2 rounded-lg bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 focus:from-white focus:to-indigo-500" 
           id="walletButton" 
@@ -83,7 +86,7 @@ const Minter = (props) => {
             "..." +
             String(walletAddress).substring(38)
           ) : (
-            <span>Connect Wallet</span>
+            <span>Connect MetaMask</span>
           )}
         </button>
       </div>  {/* Nav */}
