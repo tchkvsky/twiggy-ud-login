@@ -19,5 +19,5 @@ Steps to setup and run the app:
 3. Update `.env.example` file with your Unstoppable Domains keys
 4. Run `yarn start` to start the local server at http://localhost:3000/ 🚀
 
-# Resources
+## Resources
 For more information see the Unstoppable Domains Developer Documentation on [Login With Unstoppable](https://docs.unstoppabledomains.com/login-with-unstoppable/high-level-overview)
