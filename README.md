@@ -8,9 +8,7 @@ UD Login for Twiggy Minter
 - Project link: https://twiggy-minter.netlify.app/
 - Public repo: https://github.com/TCHKVSKY/twiggy-ud-login
 - Recorded video demo of Unstoppable Domains Login integration: https://www.youtube.com/watch?v=Bu6NMqRGebg
-- Person of contact:
-  - Discord ID: Alex_#7909
-  - Unstoppable Domains registered account email address: eddieikott@gmail.com
+
 
 ## Setup
 Steps to setup and run the app:
